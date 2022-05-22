@@ -29,7 +29,6 @@ Język:
 # Autor
 
 
-•	adres email: karolina.m.zakrzewska@gmail.com
 
 •	linkedin: https://www.linkedin.com/in/karolina--zakrzewska/
 
