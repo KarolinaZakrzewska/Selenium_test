@@ -26,9 +26,8 @@ Język:
 •	Python
 
 
-# Autorka
+# Autor
 
-Zapraszam do kontaktu:
 
 •	adres email: karolina.m.zakrzewska@gmail.com
 
