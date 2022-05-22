@@ -1,5 +1,8 @@
 # Selenium test rejestracji
 
+Warunki wstępne:
+użytkownik niezalogowany. Test sprawdzający czy strona nie zarejestruje użytkownika bez imienia (pole to jest wymagane). Test pomyślny.
+
 ![image](https://user-images.githubusercontent.com/92153501/169701769-88bc1244-664a-4562-b87c-75cbe79acc3b.png)
 
 
