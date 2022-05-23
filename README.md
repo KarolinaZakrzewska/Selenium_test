@@ -1,4 +1,6 @@
-# Selenium test rejestracji
+# Selenium automationpractice
+
+# 1. Test rejestracji
 
 Warunki wstępne:
 użytkownik niezalogowany. 
