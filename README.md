@@ -16,10 +16,11 @@ http://automationpractice.com/
 Wersja przeglądarki:
 Google Chrome 101.0.4951.67 (Oficjalna wersja) (64-bitowa)
 
-# Dokumentacja
+
+# 📓 Dokumentacja
 [TestCase1.pdf](https://github.com/KarolinaZakrzewska/Selenium_test/files/8749669/TestCase1.pdf)
 
-# Narzędzia
+# 🛠 Narzędzia
 
 Projekt stworzony przy użyciu:
 
@@ -33,7 +34,7 @@ Język:
 •	Python
 
 
-# Autor
+# 💬 Autor
 
 
 
