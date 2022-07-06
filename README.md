@@ -1,42 +1,46 @@
-# Selenium automationpractice
+# Automationpractice - Selenium
 
-# 1. Test rejestracji
+## 💻 Project
+Website: http://automationpractice.com/
 
-Warunki wstępne:
-użytkownik niezalogowany. 
-Test sprawdzający czy strona nie zarejestruje użytkownika bez imienia (pole to jest wymagane). 
-Test pomyślny. Użytkownik nie został zarejestrowany, pojawił się komunikat o błędzie.
+Environment: Chrome Version 101.0.4951.67, Windows 10 Home
+
+
+## 1. Test rejestracji
+
+Prerequisites:
+
+1. Registration page open
+2. User not logged in
+
+
+Test checking whether the website does not register a user without a first name (this field is required).
+Pass test. User has not been registered, an error message has appeared.
 
 ![image](https://user-images.githubusercontent.com/92153501/169701769-88bc1244-664a-4562-b87c-75cbe79acc3b.png)
 
 
-Testowana strona:
-http://automationpractice.com/
 
-Wersja przeglądarki:
-Google Chrome 101.0.4951.67 (Oficjalna wersja) (64-bitowa)
+## 📓 Documentation
+#### PL [PL_TestCases.pdf](https://github.com/KarolinaZakrzewska/Selenium_test_automationpractice/blob/main/PL_TestCases.pdf) 
+
+#### ENG [ENG_TestCases.pdf](https://github.com/KarolinaZakrzewska/Selenium_test_automationpractice/blob/main/ENG_TestCases.pdf) 
 
 
-# 📓 Dokumentacja
-[TestCase1.pdf](https://github.com/KarolinaZakrzewska/Selenium_test/files/8749669/TestCase1.pdf)
+## 🛠 Tools
 
-# 🛠 Narzędzia
+### Project created using:
 
-Projekt stworzony przy użyciu:
 
 •	Pycharm
 
 •	Selenium WebDriver 4
 
-
-Język:
-
 •	Python
 
 
-# 💬 Autor
 
-
+## 💬 Author
 
 •	linkedin: https://www.linkedin.com/in/karolina--zakrzewska/
 
