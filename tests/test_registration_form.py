@@ -1,6 +1,5 @@
 from selenium import webdriver
 from pages.registration_form import RegistrationForm
-#from time import sleep
 import unittest
 from selenium.webdriver.support.select import Select
 
