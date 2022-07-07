@@ -93,16 +93,16 @@ class RegistrationForm:
   def set_state(self):
     driver = self.driver
     Select(driver.find_element(By.ID, state_id))
-    driver.find_element(By.ID, state).send_keys(state_select)
+    driver.find_element(By.ID, state_id).send_keys(state_select)
 
   def set_postal_code(self):
     driver = self.driver
-    driver.find_element(By.ID, postal_code).send_keys(postal_code_input)
+    driver.find_element(By.ID, postal_code_id).send_keys(postal_code_input)
 
   def set_country(self):
     driver = self.driver
     Select(driver.find_element(By.ID, country_id))
-    driver.find_element(By.ID, country).send_keys(country_select)
+    driver.find_element(By.ID, country_id).send_keys(country_select)
 
   def set_phone(self):
     driver = self.driver
