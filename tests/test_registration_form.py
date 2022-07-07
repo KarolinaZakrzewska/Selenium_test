@@ -34,9 +34,6 @@ class TestRegistrationForm:
     def test_last_name_address_or_equal_last_name_input_validation(self):
         RegistrationForm.set_last_name_address_or_equal_last_name_input(self)
 
-    def test_address_input_validation(self):
-        RegistrationForm.set_address(self)
-
     def test_city_input_validation(self):
         RegistrationForm.set_city(self)
 
