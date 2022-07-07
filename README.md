@@ -38,6 +38,9 @@ Pass test. User has not been registered, an error message has appeared.
 
 •	Python
 
+## ❗
+A chromedriver is required for the test to work. The chromedriver version should match the Chrome browser version. 
+https://chromedriver.chromium.org/
 
 
 ## 💬 Author
