@@ -34,7 +34,7 @@ Pass test. User has not been registered, an error message has appeared.
 
 •	Pycharm
 
-•	Selenium + Unittest
+•	Selenium + Pytest
 
 •	Python
 
