@@ -6,7 +6,7 @@ Website: http://automationpractice.com/
 Environment: Chrome Version 101.0.4951.67, Windows 10 Home
 
 
-## 1. Registration of a new user without providing a name in the registration form
+## 1. New user registration without address
 
 Prerequisites:
 
@@ -14,7 +14,7 @@ Prerequisites:
 2. User not logged in
 
 
-Test checking whether the website does not register a user without a first name (this field is required).
+Test checking whether the website does not register a user without an adress (this field is required).
 Pass test. User has not been registered, an error message has appeared.
 
 ![image](https://user-images.githubusercontent.com/92153501/169701769-88bc1244-664a-4562-b87c-75cbe79acc3b.png)
