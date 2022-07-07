@@ -1,6 +1,5 @@
 from selenium import webdriver
 import pytest
-from time import sleep
 from selenium.webdriver.common.by import By
 import unittest
 from selenium.webdriver.support.select import Select
