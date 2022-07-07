@@ -6,7 +6,7 @@ Website: http://automationpractice.com/
 Environment: Chrome Version 101.0.4951.67, Windows 10 Home
 
 
-## 1. Test rejestracji
+## 1. Registration of a new user without providing a name in the registration form
 
 Prerequisites:
 
