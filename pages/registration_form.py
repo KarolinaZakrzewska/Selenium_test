@@ -10,7 +10,6 @@ first_name_id = "customer_firstname"
 create_account_id = "SubmitCreate"
 last_name_id = "customer_lastname"
 password_id = "passwd"
-address_id = "address1"
 first_name_address_id = "firstname"
 last_name_address_id = "lastname"
 city_id = "city"
@@ -33,7 +32,6 @@ birthdate_select = "1996-12-27"
 days = "days"
 months = "months"
 years = "years"
-address_input = "Grzybowska 56"
 city_input = "Warsaw"
 state_select = "Texas"
 postal_code_input = "02123"
@@ -88,10 +86,6 @@ class RegistrationForm:
     driver = self.driver
     assert driver.find_element(By.ID, last_name_address_id).get_attribute("value") == last_name_input, "Assertion passed, Expected last name with adress equal last name input"
 
-  def set_address(self):
-    driver = self.driver
-    driver.find_element(By.ID, address_id).send_keys(address_input)
-
   def set_city(self):
     driver = self.driver
     driver.find_element(By.ID, city_id).send_keys(city_input)
@@ -127,5 +121,3 @@ class RegistrationForm:
     driver = self.driver
     assert (driver.find_element(By.XPATH, error_message_xpath)).text == "There is 1 error", "Assertion passed, Expected last name with adress equal last name input"
 
-    # error_messages = driver.find_elements(By.XPATH, '//div[@class="alert alert-danger"]//li')
-    # self.assertEqual("firstname is required.", error_messages[0].text)
