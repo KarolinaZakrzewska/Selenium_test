@@ -6,7 +6,7 @@ Website: http://automationpractice.com/
 Environment: Chrome Version 101.0.4951.67, Windows 10 Home
 
 
-## 1. New user registration without address
+## TestCase1: New user registration without address
 
 Prerequisites:
 
