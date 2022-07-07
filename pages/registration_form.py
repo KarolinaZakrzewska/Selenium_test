@@ -5,11 +5,6 @@ from selenium.webdriver.common.by import By
 import unittest
 from selenium.webdriver.support.select import Select
 
-#from faker import Faker
-
-#fake = Faker()
-
-
 #All selectors used in these methods
 email_add_id = "email_create"
 first_name_id = "customer_firstname"
@@ -27,8 +22,6 @@ phone_id = "phone_mobile"
 alias_id = "alias"
 register_id = "submitAccount"
 error_message_xpath = '//div[@class="alert alert-danger"]/p'
-
-
 
 
 #All variables
@@ -134,7 +127,6 @@ class RegistrationForm:
   def error_message(self):
     driver = self.driver
     assert (driver.find_element(By.XPATH, error_message_xpath)).text == "There is 1 error", "Assertion passed, Expected last name with adress equal last name input"
-
 
     # error_messages = driver.find_elements(By.XPATH, '//div[@class="alert alert-danger"]//li')
     # self.assertEqual("firstname is required.", error_messages[0].text)
