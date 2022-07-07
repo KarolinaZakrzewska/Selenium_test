@@ -3,12 +3,14 @@ from pages.registration_form import RegistrationForm
 import unittest
 from selenium.webdriver.support.select import Select
 
+
 class TestRegistrationForm:
+
     driver = webdriver.Chrome()
     driver.implicitly_wait(2)
     driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account")
     driver.maximize_window()
-    driver.implicitly_wait(3)
+    driver.implicitly_wait(5)
 
     def test_email_input_validation(self):
         RegistrationForm.set_email(self)
@@ -55,8 +57,11 @@ class TestRegistrationForm:
     def test_click_register_validation(self):
         RegistrationForm.set_register(self)
 
-    def test_error_message_validation(self):
-        RegistrationForm.error_message(self)
+    def test_error_message_one_defect_validation(self):
+        RegistrationForm.error_message_one_defect(self)
+
+    def test_error_message_info_about_defect_validation(self):
+        RegistrationForm.error_message_info_about_defect(self)
 
     def tearDown(self):
         self.driver.quit()
