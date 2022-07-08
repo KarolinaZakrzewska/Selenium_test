@@ -24,7 +24,6 @@ error_message_info_about_defect_xpath = '//div[@class="alert alert-danger"]//li'
 
 
 #All variables
-#email_input = fake.email()
 email_input = "tesxtddfd@gmail.com"
 first_name_input = "ania"
 last_name_input = "Ryba"
