@@ -36,7 +36,7 @@ Pass test. User has not been registered, an error message has appeared.
 
 •	Selenium + Pytest
 
-•	Python
+•	Python 3
 
 ## ❗
 A chromedriver is required for the test to work. The chromedriver version should match the Chrome browser version. 
